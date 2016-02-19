@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Joseph Batchik's homepage</title>
+    <meta name="description" content="JD Batchik's Résumé">
+    <meta name="author" content="JD Batchik @">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
+</head>
+<body>
+<div class="container">
+    
+    <header class="three columns">
+        <img src="https://www.gravatar.com/avatar/c9885065ed7657d72b48587a8f881a77?s=150" alt="A photo of JD Batchik" />
+
+        <h1>JD Batchik</h1>
+        
+        
+        <p>
+            <a href="http://jd.batchik.net">jd.batchik.net</a><br/>
+        </p>
+        <p>
+            <a href="mailto:josephbatchik@gmail.com">josephbatchik@gmail.com</a><br/>
+        </p>
+        <p>
+            <a href="https://github.com/JDrit"><i class="fa fa-github"></i> Github</a>
+        </p>
+    </header>
+    <div class="thirteen columns clearfix">
+
+        <section class="thirteen columns">
+    <h1>Summary</h1>
+    
+    <p>Computer scientist with a passion for distributed systems, interesting algorithms, and
+    developing the kinds of tools that allow people to find the data they're looking for,
+    and then put the data to use solving practical, real-world problems.</p>
+    <br>
+    <p>I relish working with truly large data sets, learning new languages, and applying them
+    to both work and personal projects. Work experience to date includes some of the world's
+    largest infrastructures, in a variety of computing roles and contexts.</p>
+</section>
+
+
+
+<section class="thirteen columns">
+    <h1>Employment</h1>
+    <article>
+        <header>
+            <h1>Cloudera - Software Engineer Intern</h1>
+            <span><address>Palo Alto, CA</address><time>Summer 2015</time></span>
+        </header>
+        <p>
+            Redesigned how Apache Spark and Apache Avro work together to allow 
+            developers to more easily process data. Along that way I implemented 
+            several performance increases in Spark yielding up to 70% reduction 
+            in network usage. Worked on integrating the project into Cloudera's 
+            own Hadoop distribution.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Google - Engineering Practicum Intern</h1>
+            <span><address>New York, NY</address><time>Summer 2014</time></span>
+        </header>
+        <p>
+            Worked as a Site Reliability Engineer, dealing with performance 
+            testing for a variety of internal projects at Google. I was responsible 
+            for finding and fixing various of performance issues across my team's 
+            department.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Amazon - Software Engineer Intern</h1>
+            <span><address>Seattle, WA</address><time>Spring 2014</time></span>
+        </header>
+        <p>
+            Designed and built a search indexer to allow internal users to search
+            for necessary information. Also worked on extending existing APIs
+            to allow for more functionality. I worked in Java using various
+            Amazon Web Services like CloudSearch, SQS, and SNS.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>John Hopkins University Applied Physics Laboratory - Software Intern</h1>
+            <span><address>Laurel, MD</address><time>Summer 2013</time></span>
+        </header>
+        <p>
+            Implemented a sensor management system used to control and collect 
+            data from multiple telescopes remotely. Languages / tools used: 
+            Java, ant, svn, SQL, Google Protocol Buffers.
+        </p>
+    </article>
+</section>
+
+
+<section class="thirteen columns">
+    <h1>Education</h1>
+    <article>
+        <header>
+            <h1>Student</h1>
+            <span>Rochester Institute of Technology</span>
+            <span><address>Rochester, NY</address><time>2012 to present</time></span>
+        </header>
+        <p>
+        Focused on computational theory and language design.
+        </p
+    </article>
+</section>
+
+
+<section class="thirteen columns">
+    <h1>Technical Skills</h1>
+    <article>
+        <header>
+            <h1>Software engineering</h1>
+        </header>
+        <p><strong>Languages:</strong> Scala, Python, Java, Ruby, Go, C</p>
+        <p><strong>Tools:</strong> Git, Apache Spark, PostgreSQL, Apache Avro, Rails, Protocol Buffers</p>
+        <p><strong>Certifications:</strong> Cloudera Certified Hadoop Developer</p>
+        <p><strong>Apache Spark Contributor:</strong> Focused on integrating Spark with the Avro file format</p>
+
+    </article>
+</section>
+
+
+<section class="thirteen columns">
+    <h1>Personal Projects</h1>
+    <strong>Raft Implementation in Scala</strong>
+    <p>
+      Wrote an implementation of the Raft consensus algorithm in Scala. It supported
+      leader election, adding and removing nodes, and had strong consistency
+      guarantees. The project was implemented in an abstract way such that it could
+      be extended to be used for a magnitude of use cases. I created a robust key-value
+      store to demostrate how it could be used. Wrote Jepsen test to prove that the 
+      implementation was correct and would not lose data, even in the face of major 
+      network partitions
+    </p>
+    <br>
+    <strong>Wikipedia Page Views Analytics</strong>
+    <p>
+      Using HDFS and HBase, built a system that processed and stored the page view 
+      log data for all of Wikipedia and presented the information in a real-time web 
+      UI. Personally setup and maintained an 8 node Hadoop cluster for the project.
+    </p>
+    <br>
+    <strong>Github Language Analyzer</strong>
+    <p>
+      Built a data analyzer and ingest pipeline using Go to determine the programming 
+      language usage across all of GitHub. This provided key insights to language usage
+      trends over time and in comparison to each other. Implemented a distributed ingest 
+      pipeline to increase processing capabilities.
+    </p>
+</section>
+
+
+
+<section class="thirteen columns">
+    <h1>Resources</h1>
+    
+    <p>
+        <strong>Resume:</strong>
+        <a href="https://github.com/JDrit/resume/raw/master/resume.pdf">pdf version</a>
+    </p>
+    <p>
+        <strong>CAP Theorm Talk:</strong>
+        <a href="/assets/files/cap.pdf"> slide deck</a>
+    </p>
+    <p>
+        <strong>Dynamic Programming Seminar</strong>
+        <a href="/assets/files/cap.pdf"> slide deck</a>
+    </p>
+    <p>
+        <strong>Raft Seminar</strong>
+        <a href="/assets/files/raft.pdf"> slide deck</a>
+    </p>
+</section>
+
+
+
+
+    <footer class="thirteen columns">
+        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
+            <a href="https://www.github.com/biomadeira/vitae">vitae</a> with ♥</p>
+    </footer>
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49487129-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	
+</body>
+</html>
