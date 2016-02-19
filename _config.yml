@@ -1,0 +1,24 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: false
+url: http://jd.batchik.net
+author: Joseph Batchik
+
+baseurl: /
+title: Joseph Batchik's homepage
+name: Joseph Batchik
+email: josephbatchik@gmail.com
+email_full: mailto:josephbatchik@gmail.com
+website: jd.batchik.net
+website_full: http://jd.batchik.net
+github: JDrit
+google_analytics: UA-49487129-1
+
+# needed for travis-ci build
+exclude: [vendor]
