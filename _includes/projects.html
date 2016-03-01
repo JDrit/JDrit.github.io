@@ -2,13 +2,14 @@
     <h1>Personal Projects</h1>
     <strong>Raft Implementation in Scala</strong>
     <p>
-      Wrote an implementation of the Raft consensus algorithm in Scala. It supported
-      leader election, adding and removing nodes, and had strong consistency
-      guarantees. The project was implemented in an abstract way such that it could
-      be extended to be used for a magnitude of use cases. I created a robust key-value
-      store to demostrate how it could be used. Wrote Jepsen test to prove that the 
-      implementation was correct and would not lose data, even in the face of major 
-      network partitions
+      Wrote an implementation of the Raft consensus algorithm in Scala. It supports 
+      leader election, adding and removing nodes, and has strong consistency 
+      guarantees. This project was written is such a way that it could be extended
+      to a magnitude of use cases. To prove this, I created a robust key-value 
+      database on top of the consensus protocol to demonstrate how it could be 
+      used. This project also includes Jepsen tests to prove that the implementation
+      is correct and that it will not lose any data, even in the face of major network 
+      partitions.
     </p>
     <br>
     <strong>Wikipedia Page Views Analytics</strong>
