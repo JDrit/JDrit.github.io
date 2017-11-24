@@ -4,10 +4,10 @@ rdiscount:
   extensions: [smart]
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 port: 4000
 safe: false
-url: http://jd.batchik.net
+url: http://batchik.net
 author: Joseph Batchik
 
 baseurl: /
@@ -15,8 +15,8 @@ title: Joseph Batchik's homepage
 name: JD Batchik
 email: josephbatchik@gmail.com
 email_full: mailto:josephbatchik@gmail.com
-website: jd.batchik.net
-website_full: http://jd.batchik.net
+website: batchik.net
+website_full: http://batchik.net
 github: JDrit
 linkedin: josephbatchik
 google_analytics: UA-49487129-1

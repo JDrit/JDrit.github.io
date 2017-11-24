@@ -1,30 +1,42 @@
-<section class="thirteen columns">
-    <h1>Personal Projects</h1>
-    <strong>Raft Implementation in Scala</strong>
-    <p>
-      Wrote an implementation of the Raft consensus algorithm in Scala. It supports 
-      leader election, adding and removing nodes, and has strong consistency 
-      guarantees. This project was written is such a way that it could be extended
-      to a magnitude of use cases. To prove this, I created a robust key-value 
-      database on top of the consensus protocol to demonstrate how it could be 
-      used. This project also includes Jepsen tests to prove that the implementation
-      is correct and that it will not lose any data, even in the face of major network 
-      partitions.
-    </p>
-    <br>
-    <strong>Wikipedia Page Views Analytics</strong>
-    <p>
-      Using HDFS and HBase, built a system that processed and stored the page view 
-      log data for all of Wikipedia and presented the information in a real-time web 
-      UI. Personally setup and maintained an 8 node Hadoop cluster for the project.
-    </p>
-    <br>
-    <strong>Github Language Analyzer</strong>
-    <p>
-      Built a data analyzer and ingest pipeline using Go to determine the programming 
-      language usage across all of GitHub. This provided key insights to language usage
-      trends over time and in comparison to each other. Implemented a distributed ingest 
-      pipeline to increase processing capabilities.
-    </p>
+<section class="twelve columns">
+  <h1>Personal Projects</h1>
+  <strong>Raft Implementation in Scala</strong>
+  <p>
+    Wrote an implementation of the Raft consensus algorithm in Scala. It
+    supports leader election, adding and removing nodes, and has strong
+    consistency guarantees.  This project was written is such a way that it
+    could be extended to a magnitude of use cases. To prove this, I created a
+    robust key-value database on top of the consensus protocol to demonstrate
+    how it could be used. This project also includes Jepsen tests to prove that
+    the implementation is correct and that it will not lose any data, even in
+    the face of major network partitions.
+  </p>
+  <br/>
+  <strong>Gossip-Based CRDT</strong>
+  <p>
+    Constructed a distributed backend counting service that was capable of
+    withstanding large amounts of requests. This was achieved by using CRDTs in
+    the background to pass around state to all other nodes in the service. This
+    was built using a combination of lightweight threads for the request
+    handling, Apache Zookeeper as the coordination system, and Apache thrift as
+    the shared communication protocol.
+  </p>
+  <br/>
+  <strong>Wikipedia Page Views Analytics</strong>
+  <p>
+    Using HDFS and HBase, built a system that processed and stored the page view
+    log data for all of Wikipedia and presented the information in a real-time
+    web UI. Personally setup and maintained an 8 node Hadoop cluster for the
+    project.
+  </p>
+  <br/>
+  <strong>Github Language Analyzer</strong>
+  <p>
+    Built a data analyzer and ingest pipeline using Go to determine the
+    programming language usage across all of GitHub. This provided key insights
+    to language usage trends over time and in comparison to each
+    other. Implemented a distributed ingest pipeline to increase processing
+    capabilities.
+  </p>
 </section>
 
