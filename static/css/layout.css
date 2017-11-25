@@ -38,12 +38,8 @@ p, address {
 
 #profile {
     width: 100%;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
     margin-bottom: 40px;
 }
-
 .me {
     width: 150px;
     height: 150px;
