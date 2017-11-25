@@ -7,7 +7,7 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: false
-url: http://batchik.net
+url: http://jd.batchik.net
 author: Joseph Batchik
 
 baseurl: /
@@ -15,8 +15,8 @@ title: Joseph Batchik's homepage
 name: JD Batchik
 email: josephbatchik@gmail.com
 email_full: mailto:josephbatchik@gmail.com
-website: batchik.net
-website_full: http://batchik.net
+website: jdbatchik.net
+website_full: http://jd.batchik.net
 github: JDrit
 linkedin: josephbatchik
 google_analytics: UA-49487129-1
