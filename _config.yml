@@ -9,7 +9,7 @@ port: 4000
 safe: false
 url: http://jd.batchik.net
 author: Joseph Batchik
-
+highlighter: rouge
 baseurl: /
 title: Joseph Batchik's homepage
 name: JD Batchik
